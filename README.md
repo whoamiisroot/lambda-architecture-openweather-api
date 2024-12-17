@@ -20,12 +20,12 @@ Data collected from [OpenWeatherMap API](https://openweathermap.org/api)
 Historical and real-time climate conditions.  
 
 ### **Data Types**  
-- 🌡️ Temperature  
-- 🌧️ Precipitation  
-- 💨 Wind speed  
-- 💧 Humidity  
-- 🌀 Atmospheric pressure  
-- 🔮 Other climate indicators  
+-  Temperature  
+-  Precipitation  
+-  Wind speed  
+-  Humidity  
+-  Atmospheric pressure  
+-  Other climate indicators  
 
 
 ### **Significance**  
@@ -38,20 +38,20 @@ Historical and real-time climate conditions.
 ## 🎯 **Project Objectives**  
 
 ### **1️⃣ Batch Layer**  
-- 🛠️ Set up robust data processing pipelines for analyzing historical data.  
-- 💾 Store precomputed views for efficient and rapid querying.  
+-  Set up robust data processing pipelines for analyzing historical data.  
+-  Store precomputed views for efficient and rapid querying.  
 
 
 
 ### **2️⃣ Speed Layer (Real-Time Layer)**  
-- ⚡ Process real-time data streams with low latency for dynamic insights.  
-- 🔄 Enable live updates for up-to-the-minute climate information.  
+-  Process real-time data streams with low latency for dynamic insights.  
+-  Enable live updates for up-to-the-minute climate information.  
 
 
 
 ### **3️⃣ Serving Layer**  
-- 🖥️ Provide combined insights from batch and real-time layers.  
-- ⚙️ Ensure quick and efficient data querying for visualization purposes.  
+- Provide combined insights from batch and real-time layers.  
+- Ensure quick and efficient data querying for visualization purposes.  
 
 ---
 
