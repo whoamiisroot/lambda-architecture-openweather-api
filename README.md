@@ -55,7 +55,7 @@ Before starting, make sure you have the following prerequisites:
 
 
 
-### 🛠️ **Prerequisites**  
+###  **Prerequisites**  
 
 To get started, ensure the following software and environment are installed:  
 
@@ -67,7 +67,7 @@ To get started, ensure the following software and environment are installed:
 
 ---
 
-### 📥 **How To Run**  
+### **How To Run**  
 
 Follow the steps below to set up the project:
 
