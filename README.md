@@ -67,7 +67,7 @@ To get started, ensure the following software and environment are installed:
 
 - 🐳 **Docker Desktop**  
 - 🐍 **Python**  
-- 💻 **At least 32GB of RAM (recommended)**  
+- 💻 **At least 16GB of RAM**  
 - 🖥️ **Git**  
 - 📊 **Tableau**  
 
@@ -88,7 +88,7 @@ git clone https://github.com/whoamiisroot/lambda-architecture-openweather-api
 cd lambda-architecture-openweather-api
 docker-compose up -d
 ```
-## 🖼️ **Architecture Overview**
+## **Architecture Overview**
 
 The system relies on **Lambda Architecture**, structured into three interconnected layers. Below is a visual representation of the architecture:
 ![Ajouter des lignes dans le corps du texte (2)](https://github.com/user-attachments/assets/abaae215-f3fd-4fcd-b01d-3ea653d93075)
