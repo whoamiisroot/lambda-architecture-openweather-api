@@ -164,11 +164,36 @@ def write_to_cassandra(df, batch_id):
         .mode("append") \
         .save()
 
-# Fonction pour écrire dans une table temporaire Spark
+from pyspark.sql import functions as F
+
 def write_to_temp_table(df, batch_id):
-    # Écriture dans la table temporaire Spark
-    df.createOrReplaceTempView("temp_weather_data")  # Création ou mise à jour de la vue temporaire
+    # Création ou mise à jour de la vue temporaire avec toutes les données
+    df.createOrReplaceTempView("temp_weather_data")  # Vue temporaire avec toutes les données
+
+    # Filtrer les données pour afficher uniquement celles avec une température > 25°C
+    filtered_df = df.filter(col("temperature") > 25)
+    filtered_df_hum = df.filter(col("humidity") > 50)
+    
+    # Sélectionner uniquement les colonnes 'city' et 'temperature' (avec alias pour 'temperature')
+    filtered_df_with_alias = filtered_df.select(
+        col("city"),
+        col("temperature").alias("temperature_above_25")
+    )
+
+    filtered_df_hum_with_alias = filtered_df_hum.select(
+        col("city"),
+        col("humidity").alias("humidity_above_50")
+    )
+    # Création ou mise à jour de la vue temporaire avec les villes où la température est supérieure à 25°C
+    filtered_df_with_alias.createOrReplaceTempView("temp_weather_above_25")  # Vue temporaire des villes avec temp > 25
+    filtered_df_hum_with_alias.createOrReplaceTempView("hum_weather_above_50") 
+    # Affichage des résultats avec temp > 25 (seulement city et temperature_above_25)
+    filtered_df_with_alias.show()
+    filtered_df_hum_with_alias.show()
+    # Optionnel : Affiche toutes les données (si besoin)
     df.show()
+    
+    
 # Envoi dans Cassandra avec foreachBatch
 query_cassandra = transformed_stream.writeStream \
     .outputMode("append") \
