@@ -73,7 +73,7 @@ To get started, ensure the following software and environment are installed:
 
 ---
 
-### 📥 **Installation Steps**  
+### 📥 **How To Run**  
 
 Follow the steps below to set up the project:
 
