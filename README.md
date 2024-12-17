@@ -1,4 +1,4 @@
-# 🌟 **Lambda Architecture for Climate Data Processing & Visualization**  
+# **Lambda Architecture for Climate Data Processing & Visualization**  
 
 
 ## 🚀 **Description**  
