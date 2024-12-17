@@ -17,7 +17,7 @@ With this system, users can visualize **real-time and historical weather insight
 Data collected from [OpenWeatherMap API](https://openweathermap.org/api)  
 
 ### **Domain**  
-Historical and real-time climate conditions.  
+Real-time climate conditions.  
 
 ### **Data Types**  
 -  Temperature  
