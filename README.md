@@ -27,12 +27,6 @@ Real-time climate conditions.
 -  Atmospheric pressure  
 -  Other climate indicators  
 
-
-### **Significance**  
-✅ Visualize and analyze real-time climate data.  
-✅ Explore historical climate trends for planning and prediction purposes.  
-✅ Transform insights into actionable decision-making strategies.  
-
 ---
 
 ## 🎯 **Project Objectives**  
