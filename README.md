@@ -86,7 +86,7 @@ git clone https://github.com/whoamiisroot/lambda-architecture-openweather-api
 
 ```bash
 cd lambda-architecture-openweather-api
-docker-compose up -d
+docker-compose up --build
 ```
 ## **Architecture Overview**
 
