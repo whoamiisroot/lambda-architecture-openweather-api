@@ -1,6 +1,5 @@
 # 🌟 **Lambda Architecture for Climate Data Processing & Visualization**  
 
----
 
 ## 🚀 **Description**  
 
@@ -28,7 +27,6 @@ Historical and real-time climate conditions.
 - 🌀 Atmospheric pressure  
 - 🔮 Other climate indicators  
 
----
 
 ### **Significance**  
 ✅ Visualize and analyze real-time climate data.  
@@ -43,13 +41,13 @@ Historical and real-time climate conditions.
 - 🛠️ Set up robust data processing pipelines for analyzing historical data.  
 - 💾 Store precomputed views for efficient and rapid querying.  
 
----
+
 
 ### **2️⃣ Speed Layer (Real-Time Layer)**  
 - ⚡ Process real-time data streams with low latency for dynamic insights.  
 - 🔄 Enable live updates for up-to-the-minute climate information.  
 
----
+
 
 ### **3️⃣ Serving Layer**  
 - 🖥️ Provide combined insights from batch and real-time layers.  
@@ -61,7 +59,7 @@ Historical and real-time climate conditions.
 
 Before starting, make sure you have the following prerequisites:
 
----
+
 
 ### 🛠️ **Prerequisites**  
 
