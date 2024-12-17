@@ -83,3 +83,9 @@ Follow the steps below to set up the project:
 
 ```bash
 git clone https://github.com/whoamiisroot/lambda-architecture-openweather-api
+
+2️⃣ **Launch the Infrastructure with Docker Compose**
+
+```bash
+cd lambda-architecture-openweather-api
+docker-compose up -d
